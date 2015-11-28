@@ -1,0 +1,28 @@
+NOTA
+
+7577622|Marcos Kazuya Yamazaki|0,5|0,5|0,5|0,5|0,5|0,25|0,5|1|0,9|2|1|0|8,15|"Marcos Yamazaki Caio Lopes Critério 6 - Implementação do pwd utiliza execve: -0.25 Critério 9 - Impressão em stderr informa liberação da CPU errada: -0.1 Critério 10 - Não foram implementados RR e escalonamento em tempo real com deadlines rígidos: -1.0 Critério 11 - Erros de escrita: -0,1 - Explicação do deadline confusa (não tem deadline explicado nos gráficos): -0,2 - Ausência dos outros escalonadores: -0,2"
+
+/***********************************************************/
+/*                                                         */
+/*     MAC0422 - Sistemas Operacionais                     */
+/*     Professor: Daniel Batista                           */
+/*                                                         */
+/*     Marcos Yamazaki          7577622                    */
+/*     Caio Lopes               7991187                    */
+/*                                                         */
+/*     Data: 10/Setembro/2015                              */
+/*     LEIAME.txt                                          */
+/*                                                         */
+/***********************************************************/
+
+Para a compilação dos programas, basta digitar na linha de comando:
+$ make
+
+Para a complilação desses programas, é necessaria que a biblioteca da GNU Readline esteja instalada no sistema.
+Para isso basta digitar na linha de comando:
+$ sudo apt-get install libreadline6 libreadline6-dev
+
+O compilador irá gerar dois binarios: ep1sh e ep1
+Você pode executar digitando:
+$ ./ep1sh
+$ ./ep1
